@@ -1,20 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,230;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,230;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body {
-    font-family: "Poppins", sans-serif;
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f7f7f7;
     
 }
 .container {
-    padding: 20px 230px;
-    background-color: rgb(11 62 151);
-    height: 385px;
+    padding: 20px 160px;
+    background-color: #133287;
+    height: 350px;
 }
 header {
     color: white;
@@ -29,12 +28,10 @@ header {
 }
 .container header .navbar .nav-links > ul > li > a {
     color: #ffffff;
-    
 
 }
 .container header .navbar .logo {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 48px;
 }
 .navbar {
     display: flex;
@@ -42,7 +39,7 @@ header {
 }
 
 .nav-links a {
-    
+    color: rgb(138, 28, 28);
     text-decoration: none;
     margin-right: 15px;
     font-size: medium;   
@@ -67,41 +64,24 @@ header {
 
     
 }
-.container .catagaries >ul >li >a:hover {
-   
+.container .catagaries >ul >li >a {
+    color: #ffffff;
     margin: 5px;
     padding: 10px;
-    border: 3px solid #ffffff;
+    border: 2px solid #ffffff;
     border-radius: 20px;
     font-size: 12px;
 }
 
-.container .catagaries >ul >li >a.button {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-
-
-
-
-
 
 .search-section {
-    padding: 20px 230px;
-    margin-top: -165px;
+    padding: 20px 160px;
+    margin-top: -115px;
     color: #ffffff;
     
 }
-.search-section .search-bar {
-    padding-top: 10px;
-}
-
-
-
-
 .search-section .heading >h1 {
-    font-size: 50px;
+    font-size: 40px;
 }
 .search-section .heading >p {
     margin-top: 12px;
@@ -116,21 +96,10 @@ header {
 .search-bar button {
     color: #ffffff;
     background-color: #133287;
-    font-size: 30px;
 }
-
-.search-section .search-bar >input {
-    font-size: 30px;
-    width: 400px;
-}
-
-
-
-
-
 
 .offers-section {
-    padding: 20px 230px;
+    padding: 20px 160px;
 }
 
 .offers-section .offer >button {
@@ -141,17 +110,15 @@ header {
  
 .offers-section .offer {
     color: #ffffff;
-    background-image: url("main.jpg");
+    background-image: url("1.jpg");
     background-repeat: no-repeat;
     background-size:  cover; 
     border-radius: 20px;
     background-clip: content-box;
-    padding-top: 4px;
-    object-fit: cover;
 }
 .offers-section .offer >p {
-    margin-top: 15px;
-    margin-left: 15px;
+    margin-top: 25px;
+    margin-left: 20px;
 }
 .offers-section .offer >p strong {
     margin-left: 5px;
@@ -159,96 +126,25 @@ header {
 }
 
 
-
-
-.property-types #types {
-    display: flex;
-    text-align: center;
-    padding-top: 20px;
-   
-}
-
-
-
-
-
-.property-types {
-    margin: auto;
-    overflow-x: auto; 
-    justify-content: center; 
-    width:75%;
-}
-
-
-.property-types #types .hotels img {
-    border-radius: 15px;
-    width: 300px;
-}
-.property-types #types .apartments img {
-    border-radius: 15px;
-    width: 300px;
-
-}
-
-.property-types #types .resorts img {
-    border-radius: 15px;
-    width: 300px;
-
-}
-
-.property-types #types .resturants img {
-    border-radius: 15px;
-    width: 300px;  
-    height: 200px;
-    object-fit: cover; 
-}
-
-#types img{
-padding:3px;
-}
-
-.destinations .destinations-list .islamabad >img {
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-}
-.destinations .destinations-list .lahore >img {
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-}
-.destinations .destinations-list .murree >img {
-    width: 300px;
-    height: 200px;
-    border-radius: 20px;
-}
-
-.destinations .destinations-list .karachi >img {
-    width: 300px;
-    height: 200px;
-    border-radius: 15px;
-}
-
+.property-types{
+    padding: 20px 160px;
+} 
 
 
 
 
 .destinations {
-    padding: 20px 230px;
-    
-    width: 100%;
+    padding: 20px 160px;
 } 
 .unique-properties {
-    padding: 20px 230px;
+    padding: 20px 160px;
 }
 
-.destinations-list {
+.types, .destinations-list, .properties {
     display: flex;
-    gap: 0.3rem;
-    text-align: center;
-    overflow: auto;
+    gap: 10px;
 }
 .homes-guest {
-padding: 20px 230px;
+padding: 20px 160px;
 
 }
